@@ -1,0 +1,20 @@
+{
+  "name": "librarytest",
+  "version": "1.0.0",
+  "description": "Created for testing purposes",
+  "main": "./src/index.js",
+  "typings": "./src/index.d.ts",
+  "scripts": {
+    "test": "node src/test",
+    "definition": "dts-gen -m src/index"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "author": "Ignacio Brasca",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.8.3"
+  }
+}
